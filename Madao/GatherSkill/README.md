@@ -1,1 +1,0 @@
-# MadaoGather Skill Profiles
