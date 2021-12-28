@@ -1,0 +1,4680 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["names"] = {
+	};
+	["misc"] = {
+		[1] = {
+			["condition"] = {
+				["QuestCompleted(3168)"] = true;
+			};
+			["notes"] = {
+				[1] = "Profile done.";  
+			};
+			["type"] = "endprofile";
+		};
+	};
+	["quests"] = {
+		[1204] = {
+			["level"] = 50;
+			["name"] = "The Rise and Fall of Gentlemen";
+			["prereq"] = {
+				["QuestCompleted(524)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1001285;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -67.23698425293;
+						["y"] = 4;
+						["z"] = -127.4203414917;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1005709;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -464.34826660156;
+						["y"] = -26.941640853882;
+						["z"] = 84.347839355469;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["ids"] = "2332";
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 146;
+					["pos"] = {
+						["x"] = -248.81585693359;
+						["y"] = 8.2048082351685;
+						["z"] = 217.22030639648;
+					};
+					["type"] = "killaggro";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1005709;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001125;
+					};
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -463.91860961914;
+						["y"] = -27.010847091675;
+						["z"] = 83.452980041504;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["conversationindex"] = 2;
+					["id"] = 1005710;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 146;
+					["pos"] = {
+						["x"] = 6.5853881835938;
+						["y"] = 7.4242162704468;
+						["z"] = 884.27325439453;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1205] = {
+			["level"] = 50;
+			["name"] = "Back in the Saddle";
+			["prereq"] = {
+				["QuestCompleted(1204)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1005711;
+					["itemreward"] = false;
+					["mapid"] = 146;
+					["pos"] = {
+						["x"] = 5.8855428695679;
+						["y"] = 7.4942417144775;
+						["z"] = 884.17346191406;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AH"] = 1;
+					};
+					["condition"] = {
+						["I8AH"] = 0;
+					};
+					["id"] = 1004333;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -100.33345031738;
+						["y"] = 4;
+						["z"] = -98.330497741699;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AH"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 1;
+					};
+					["id"] = 1004331;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -21.057298660278;
+						["y"] = 4.9999570846558;
+						["z"] = -134.11778259277;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["condition"] = {
+						["I8AH"] = 2;
+					};
+					["id"] = 1001313;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = 15.026389122009;
+						["y"] = 7.9999904632568;
+						["z"] = -106.4354095459;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1001285;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -67.543151855469;
+						["y"] = 4;
+						["z"] = -126.44967651367;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1206] = {
+			["level"] = 50;
+			["name"] = "After Her Own Heart";
+			["prereq"] = {
+				["QuestCompleted(1205)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1001285;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -67.543151855469;
+						["y"] = 4;
+						["z"] = -126.44967651367;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1001691;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 142.23515319824;
+						["y"] = 7.4920034408569;
+						["z"] = 103.76633453369;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1005713;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -74.248420715332;
+						["y"] = 3.9999997615814;
+						["z"] = -114.41947174072;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1005716;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.73104858398;
+						["y"] = 12;
+						["z"] = 0.073979735374451;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 1005717;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -147.95428466797;
+						["y"] = 12;
+						["z"] = -2.6005346775055;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 2003001;
+					["index"] = 5;
+					["itemid"] = 2001126;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.58625793457;
+						["y"] = 12;
+						["z"] = -3.3831322193146;
+					};
+					["type"] = "useitem";
+				};
+				[7] = {
+					["id"] = 1005716;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.77899169922;
+						["y"] = 12;
+						["z"] = 0.27301377058029;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1207] = {
+			["level"] = 50;
+			["name"] = "The Immaculate Deception";
+			["prereq"] = {
+				["QuestCompleted(1206)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1005721;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.37825012207;
+						["y"] = 12;
+						["z"] = -5.1338744163513;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1005722;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -550.79473876953;
+						["y"] = -5.6709070205688;
+						["z"] = -175.96101379395;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AH"] = 1;
+					};
+					["condition"] = {
+						["I8AH"] = 0;
+					};
+					["id"] = 1003940;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -541.96685791016;
+						["y"] = 4.1072897911072;
+						["z"] = -240.07098388672;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AH"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 1;
+					};
+					["id"] = 1003939;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -541.18054199219;
+						["y"] = 4.1223545074463;
+						["z"] = -240.50468444824;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["condition"] = {
+						["I8AH"] = 2;
+					};
+					["id"] = 1004042;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -566.97119140625;
+						["y"] = 5.8935694694519;
+						["z"] = -221.53782653809;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1005724;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -491.50119018555;
+						["y"] = 2.8038396835327;
+						["z"] = -274.05880737305;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 1005727;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["step"] = 6;
+					};
+					["id"] = 1005727;
+					["index"] = 5;
+					["itemid"] = 2001150;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "useitem";
+				};
+				[9] = {
+					["complete"] = {
+						["step"] = 7;
+					};
+					["id"] = 1005727;
+					["index"] = 6;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["complete"] = {
+						["step"] = 8;
+					};
+					["id"] = 1005727;
+					["index"] = 7;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "interact";
+				};
+				[11] = {
+					["complete"] = {
+						["step"] = 9;
+					};
+					["id"] = 1005727;
+					["index"] = 8;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "interact";
+				};
+				[12] = {
+					["complete"] = {
+						["step"] = 10;
+					};
+					["id"] = 1005727;
+					["index"] = 9;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -221.65707397461;
+						["y"] = -37.403678894043;
+						["z"] = 149.60746765137;
+					};
+					["type"] = "interact";
+				};
+				[13] = {
+					["complete"] = {
+						["I8AH"] = 1;
+					};
+					["condition"] = {
+						["I8AH"] = 0;
+					};
+					["id"] = 2003006;
+					["index"] = 10;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -210.69017028809;
+						["y"] = -37.896373748779;
+						["z"] = 150.72637939453;
+					};
+					["type"] = "interact";
+				};
+				[14] = {
+					["complete"] = {
+						["I8AH"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 1;
+					};
+					["id"] = 2003005;
+					["index"] = 10;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -219.93110656738;
+						["y"] = -37.896373748779;
+						["z"] = 165.79144287109;
+					};
+					["type"] = "interact";
+				};
+				[15] = {
+					["complete"] = {
+						["step"] = 11;
+					};
+					["condition"] = {
+						["I8AH"] = 2;
+					};
+					["id"] = 2003004;
+					["index"] = 10;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -207.49964904785;
+						["y"] = -37.896373748779;
+						["z"] = 186.78802490234;
+					};
+					["type"] = "interact";
+				};
+				[16] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1005730;
+					["index"] = 11;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001127;
+						[2] = 2001128;
+						[3] = 2001129;
+					};
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -220.9171295166;
+						["y"] = -37.896373748779;
+						["z"] = 159.28689575195;
+					};
+					["type"] = "interact";
+				};
+				[17] = {
+					["id"] = 1005731;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -527.61474609375;
+						["y"] = 5.4049973487854;
+						["z"] = -247.56748962402;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1315] = {
+			["level"] = 50;
+			["name"] = "The Science of Deduction";
+			["prereq"] = {
+				["QuestCompleted(1207)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1005884;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -527.04779052734;
+						["y"] = 5.4049973487854;
+						["z"] = -248.90713500977;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1003931;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -380.40118408203;
+						["y"] = -55.871170043945;
+						["z"] = 96.381591796875;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1008709;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001219;
+					};
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -432.13778686523;
+						["y"] = 28.038660049438;
+						["z"] = -382.2106628418;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1008713;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = 108.88695526123;
+						["y"] = 57.717803955078;
+						["z"] = 11.836437225342;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1002022;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = 10.510813713074;
+						["y"] = 22.141456604004;
+						["z"] = 65.02613067627;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1008715;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -67.316078186035;
+						["y"] = 13.290554046631;
+						["z"] = 157.64445495605;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 2003654;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -68.450340270996;
+						["y"] = 13.380889892578;
+						["z"] = 158.32228088379;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 2003658;
+					["index"] = 5;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -69.800407409668;
+						["y"] = 13.378202438354;
+						["z"] = 156.37968444824;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 2003656;
+					["index"] = 5;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -72.403938293457;
+						["y"] = 13.485692977905;
+						["z"] = 159.01396179199;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["complete"] = {
+						["I8AL"] = 3;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 2003659;
+					["index"] = 5;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -75.881141662598;
+						["y"] = 13.421722412109;
+						["z"] = 156.77610778809;
+					};
+					["type"] = "interact";
+				};
+				[11] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["condition"] = {
+						["I8AL"] = 3;
+					};
+					["id"] = 2003657;
+					["index"] = 5;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -79.240898132324;
+						["y"] = 13.417212486267;
+						["z"] = 158.03201293945;
+					};
+					["type"] = "interact";
+				};
+				[12] = {
+					["id"] = 1008716;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001220;
+					};
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -68.26781463623;
+						["y"] = 13.326726913452;
+						["z"] = 156.71894836426;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1316] = {
+			["level"] = 50;
+			["name"] = "The Hammer";
+			["prereq"] = {
+				["QuestCompleted(1315)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1008716;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -68.26781463623;
+						["y"] = 13.326726913452;
+						["z"] = 156.71894836426;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 2003664;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 147;
+					["pos"] = {
+						["x"] = 9.918890953064;
+						["y"] = 2.3159801959991;
+						["z"] = 320.95053100586;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 2003665;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 147;
+					["pos"] = {
+						["x"] = 33.252170562744;
+						["y"] = 11.463161468506;
+						["z"] = 254.28642272949;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 2003666;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 147;
+					["pos"] = {
+						["x"] = 110.83192443848;
+						["y"] = 18.377624511719;
+						["z"] = 122.01872253418;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1317] = {
+			["level"] = 50;
+			["name"] = "Manderville Men";
+			["prereq"] = {
+				["QuestCompleted(1316)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1008722;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 147;
+					["pos"] = {
+						["x"] = 111.26910400391;
+						["y"] = 18.382339477539;
+						["z"] = 122.07643890381;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 2003667;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 147;
+					["pos"] = {
+						["x"] = 138.58198547363;
+						["y"] = 20.226377487183;
+						["z"] = 103.44463348389;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1008730;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001221;
+					};
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -431.69683837891;
+						["y"] = 28;
+						["z"] = -381.14135742188;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1008735;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -420.94134521484;
+						["y"] = 23.045387268066;
+						["z"] = -366.2165222168;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1318] = {
+			["level"] = 50;
+			["name"] = "The Three Collectors";
+			["prereq"] = {
+				["QuestCompleted(1317)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1008736;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -419.11044311523;
+						["y"] = 23.114009857178;
+						["z"] = -366.60681152344;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1008739;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 177.06112670898;
+						["y"] = 222.2378692627;
+						["z"] = 348.78268432617;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1008741;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 248.97323608398;
+						["y"] = 222.30871582031;
+						["z"] = 352.00180053711;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1008746;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 260.10540771484;
+						["y"] = 222.29263305664;
+						["z"] = 320.81948852539;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 2003741;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 396.00689697266;
+						["y"] = 225.09344482422;
+						["z"] = 379.07659912109;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 6;
+					};
+					["id"] = 1008752;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 487.79168701172;
+						["y"] = 206.95515441895;
+						["z"] = 478.56796264648;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["breakparty"] = true;
+					["condition"] = {
+						["step"] = 6;
+					};
+					["index"] = 6;
+					["mapid"] = 155;
+					["notes"] = {
+						[1] = "-=-=-=-=-=-Next Steps-=-=-=-=-=-";
+						[2] = "  Complete the Battle on the    ";
+						[3] = "Big Bridge duty and press start ";
+						[4] = "             after.                ";
+					};
+					["pos"] = {
+						["x"] = 487.79168701172;
+						["y"] = 206.95515441895;
+						["z"] = 478.56796264648;
+					};
+					["type"] = "endprofile";
+				};
+				[8] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1008756;
+					["index"] = 7;
+					["itemreward"] = false;
+					["mapid"] = 155;
+					["pos"] = {
+						["x"] = 480.31072998047;
+						["y"] = 207.32272338867;
+						["z"] = 476.83575439453;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1008788;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -421.29098510742;
+						["y"] = 23.009412765503;
+						["z"] = -366.01229858398;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1438] = {
+			["level"] = 50;
+			["name"] = "The Business of Betrothal";
+			["prereq"] = {
+				["QuestCompleted(1318)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1008757;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -421.30633544922;
+						["y"] = 23.114009857178;
+						["z"] = -366.99633789063;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1009305;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 560.54504394531;
+						["y"] = 17.741621017456;
+						["z"] = 421.82159423828;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1009307;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 498.4186706543;
+						["y"] = 10.099411010742;
+						["z"] = 419.51153564453;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1009310;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 471.08898925781;
+						["y"] = 10.027400016785;
+						["z"] = 792.44598388672;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 1009308;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 559.20922851563;
+						["y"] = 17.741621017456;
+						["z"] = 420.80111694336;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 6;
+					};
+					["id"] = 1009311;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 532.88830566406;
+						["y"] = 17.415042877197;
+						["z"] = 454.35598754883;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1009317;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 583.25329589844;
+						["y"] = 14.587066650391;
+						["z"] = 394.11892700195;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 2004317;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 515.82666015625;
+						["y"] = 9.1884517669678;
+						["z"] = 525.07037353516;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1439] = {
+			["level"] = 50;
+			["name"] = "A Burst of Inspiration";
+			["prereq"] = {
+				["QuestCompleted(1438)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1009326;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 527.83892822266;
+						["y"] = 8.8149871826172;
+						["z"] = 555.72723388672;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1009328;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 513.68341064453;
+						["y"] = 9.1894435882568;
+						["z"] = 524.72247314453;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1009319;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 580.21636962891;
+						["y"] = 14.587066650391;
+						["z"] = 395.14593505859;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1001023;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 129;
+					["pos"] = {
+						["x"] = -78.653465270996;
+						["y"] = 18.000333786011;
+						["z"] = -21.733379364014;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1009331;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = 310.54672241211;
+						["y"] = -36.405906677246;
+						["z"] = 343.60571289063;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1440] = {
+			["level"] = 50;
+			["name"] = "Seeds of Rebellion";
+			["prereq"] = {
+				["QuestCompleted(1439)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1009331;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = 310.54672241211;
+						["y"] = -36.405906677246;
+						["z"] = 343.60571289063;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AH"] = 1;
+					};
+					["condition"] = {
+						["I8AH"] = 0;
+					};
+					["id"] = 2004324;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = -283.42553710938;
+						["y"] = -40.594066619873;
+						["z"] = 424.44204711914;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AH"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 1;
+					};
+					["id"] = 2004325;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = -242.45932006836;
+						["y"] = -38.660163879395;
+						["z"] = 514.06091308594;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 2;
+					};
+					["id"] = 2004326;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = -290.24957275391;
+						["y"] = -37.979537963867;
+						["z"] = 596.58764648438;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["(ScanForMobs(2827) or ScanForMobs(2828) or ScanForMobs(2829) or ScanForMobs(2830) or ScanForMobs(2831))"] = true;
+					};
+					["condition"] = {
+						["(ScanForMobs(2827) or ScanForMobs(2828) or ScanForMobs(2829) or ScanForMobs(2830) or ScanForMobs(2831))"] = false;
+					};
+					["id"] = 1009335;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = -256.00561523438;
+						["y"] = -40.131450653076;
+						["z"] = 685.37213134766;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["condition"] = {
+						["(ScanForMobs(2827) or ScanForMobs(2828) or ScanForMobs(2829) or ScanForMobs(2830) or ScanForMobs(2831))"] = true;
+					};
+					["ids"] = "2829;2828;2827;2831;2830";
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 138;
+					["pos"] = {
+						["x"] = -251.62051391602;
+						["y"] = -40.28169631958;
+						["z"] = 700.82440185547;
+					};
+					["type"] = "killaggro";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1009319;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001343;
+					};
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 580.8203125;
+						["y"] = 14.587066650391;
+						["z"] = 395.18817138672;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1009336;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 495.74642944336;
+						["y"] = 11.067617416382;
+						["z"] = 210.85527038574;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1009337;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = -49.258144378662;
+						["y"] = 75.951148986816;
+						["z"] = 10.012929916382;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1441] = {
+			["level"] = 50;
+			["name"] = "A Case of Indecency";
+			["prereq"] = {
+				["QuestCompleted(1440)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1009341;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = -48.216041564941;
+						["y"] = 75.951148986816;
+						["z"] = 10.299464225769;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1009351;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 523.50317382813;
+						["y"] = 17.415042877197;
+						["z"] = 448.50982666016;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1009347;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 443.96115112305;
+						["y"] = 15.683542251587;
+						["z"] = 375.02847290039;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1009348;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001344;
+					};
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 386.68783569336;
+						["y"] = 29.463521957397;
+						["z"] = 351.2998046875;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1009345;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001345;
+					};
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 522.32110595703;
+						["y"] = 17.415042877197;
+						["z"] = 446.57928466797;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 2004328;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 521.7744140625;
+						["y"] = 17.415042877197;
+						["z"] = 454.89645385742;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[166] = {
+			["level"] = 50;
+			["name"] = "Eight-armed and Dangerous";
+			["prereq"] = {
+				["QuestCompleted(1441)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1009357;
+					["itemreward"] = false;
+					["mapid"] = 137;
+					["pos"] = {
+						["x"] = 528.21746826172;
+						["y"] = 17.415042877197;
+						["z"] = 447.82168579102;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1010160;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -146.18399047852;
+						["y"] = 12;
+						["z"] = -6.585946559906;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1001857;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -46.996971130371;
+						["y"] = 9.9999961853027;
+						["z"] = -12.032193183899;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1010160;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.49533081055;
+						["y"] = 12;
+						["z"] = -4.0548815727234;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 1010188;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -107.16202545166;
+						["y"] = 4;
+						["z"] = -82.804763793945;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1010281;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -71.824371337891;
+						["y"] = 6.9839682579041;
+						["z"] = 3.3846089839935;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1010287;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -144.22866821289;
+						["y"] = 12;
+						["z"] = -3.606561422348;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[202] = {
+			["level"] = 50;
+			["name"] = "What Price Victory";
+			["prereq"] = {
+				["QuestCompleted(166)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1010279;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -144.22866821289;
+						["y"] = 12;
+						["z"] = -3.606561422348;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1010523;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -52.106475830078;
+						["y"] = 9.9999961853027;
+						["z"] = -4.2133898735046;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1010293;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = -60.447631835938;
+						["y"] = -11.872787475586;
+						["z"] = -61.741203308105;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1010298;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = 20.108503341675;
+						["y"] = 18.622653961182;
+						["z"] = -419.30548095703;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1010310;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = -54.638584136963;
+						["y"] = 3.4049758911133;
+						["z"] = 260.75479125977;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1010290;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -145.29444885254;
+						["y"] = 12;
+						["z"] = -7.0782313346863;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[203] = {
+			["level"] = 50;
+			["name"] = "The Trouble with Truffles";
+			["prereq"] = {
+				["QuestCompleted(202)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1010290;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -146.15289306641;
+						["y"] = 12;
+						["z"] = -5.8784465789795;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1010169;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -48.316677093506;
+						["y"] = 9.9999961853027;
+						["z"] = -11.021359443665;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1010316;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -53.432048797607;
+						["y"] = 9.9999961853027;
+						["z"] = -11.414134979248;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 2004901;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 104.6994934082;
+						["y"] = 8;
+						["z"] = 9.3537797927856;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 2004900;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 102.75452423096;
+						["y"] = 7.9999961853027;
+						["z"] = -34.042060852051;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 2004899;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 68.786186218262;
+						["y"] = 8;
+						["z"] = -74.453971862793;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1010316;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001508;
+					};
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -54.070949554443;
+						["y"] = 9.9999990463257;
+						["z"] = -11.952584266663;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1001679;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001509;
+					};
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 137.87637329102;
+						["y"] = 4;
+						["z"] = -58.418464660645;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[204] = {
+			["level"] = 50;
+			["name"] = "The Coliseum Conundrum";
+			["prereq"] = {
+				["QuestCompleted(203)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1010317;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 138.51861572266;
+						["y"] = 4;
+						["z"] = -56.797286987305;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1010330;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -70.414993286133;
+						["y"] = 6.9839687347412;
+						["z"] = 0.5446942448616;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1010772;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -72.007667541504;
+						["y"] = 6.9839692115784;
+						["z"] = -1.2048163414001;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1010161;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -337.9225769043;
+						["y"] = -22.360313415527;
+						["z"] = 433.27978515625;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["breakparty"] = true;
+					["condition"] = {
+						["step"] = 4;
+					};
+					["index"] = 4;
+					["mapid"] = 145;
+					["notes"] = {
+						[1] = "-=-=-=-=-=-Next Steps-=-=-=-=-=-";
+						[2] = "  Complete the Dragon's Neck    ";
+						[3] = "  duty and press start after.";
+					};
+					["pos"] = {
+						["x"] = -337.9225769043;
+						["y"] = -22.360313415527;
+						["z"] = 433.27978515625;
+					};
+					["type"] = "endprofile";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1010329;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 145;
+					["pos"] = {
+						["x"] = -333.64562988281;
+						["y"] = -22.473695755005;
+						["z"] = 432.26141357422;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1010330;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -70.705345153809;
+						["y"] = 6.9839687347412;
+						["z"] = -0.081406310200691;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[490] = {
+			["level"] = 50;
+			["name"] = "Shades of Sil'dih";
+			["prereq"] = {
+				["QuestCompleted(204)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1010708;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -71.143783569336;
+						["y"] = 6.9839682579041;
+						["z"] = 1.7104972600937;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1001285;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -67.866554260254;
+						["y"] = 4;
+						["z"] = -127.14782714844;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1011620;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -117.11735534668;
+						["y"] = 40;
+						["z"] = 94.796768188477;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1011672;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -116.54547119141;
+						["y"] = 40;
+						["z"] = 92.129203796387;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1011677;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = 362.8759765625;
+						["y"] = 74.743354797363;
+						["z"] = 167.76202392578;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[491] = {
+			["level"] = 50;
+			["name"] = "Sibling Strife";
+			["prereq"] = {
+				["QuestCompleted(490)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1011677;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = 362.70718383789;
+						["y"] = 74.743354797363;
+						["z"] = 171.57119750977;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1011681;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -181.48153686523;
+						["y"] = 18;
+						["z"] = 56.114757537842;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1003897;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -196.03742980957;
+						["y"] = 18;
+						["z"] = 62.306545257568;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AL"] = 3;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1001294;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -212.81439208984;
+						["y"] = 18.5;
+						["z"] = 71.332702636719;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 3;
+					};
+					["id"] = 1001708;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -249.80477905273;
+						["y"] = 18;
+						["z"] = 80.276016235352;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1011682;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 130;
+					["pos"] = {
+						["x"] = -201.7596282959;
+						["y"] = 18;
+						["z"] = 60.131622314453;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 1011683;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = 76.086311340332;
+						["y"] = 45;
+						["z"] = -217.90469360352;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 140;
+					["pos"] = {
+						["x"] = -346.21649169922;
+						["y"] = 23;
+						["z"] = -352.9436340332;
+					};
+					["type"] = "nav";
+				};
+				[9] = {
+					["id"] = 1011675;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -116.78430175781;
+						["y"] = 40;
+						["z"] = 96.225662231445;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[492] = {
+			["level"] = 50;
+			["name"] = "Beneath the Mask";
+			["prereq"] = {
+				["QuestCompleted(491)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1011691;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 41.736137390137;
+						["y"] = 34;
+						["z"] = 26.528070449829;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 2005164;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 44.124397277832;
+						["y"] = 34;
+						["z"] = -14.114247322083;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 2005165;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 59.538703918457;
+						["y"] = 33.999988555908;
+						["z"] = -21.584442138672;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["id"] = 2005166;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 74.266403198242;
+						["y"] = 28.999647140503;
+						["z"] = -28.9638671875;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 5;
+					};
+					["id"] = 1011697;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 39.822814941406;
+						["y"] = 34;
+						["z"] = 26.484764099121;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1011693;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 39.849376678467;
+						["y"] = 34;
+						["z"] = 29.370119094849;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1011694;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 40.57307434082;
+						["y"] = 34;
+						["z"] = 29.531597137451;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1011695;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 41.271793365479;
+						["y"] = 34;
+						["z"] = 29.966903686523;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1011697;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 40.659618377686;
+						["y"] = 34;
+						["z"] = 26.37727355957;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[493] = {
+			["level"] = 50;
+			["name"] = "Truths Untold";
+			["prereq"] = {
+				["QuestCompleted(492)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1011699;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 39.89427947998;
+						["y"] = 34;
+						["z"] = 29.195877075195;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["id"] = 1011707;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 41.856903076172;
+						["y"] = 34;
+						["z"] = 29.281455993652;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["id"] = 1001679;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 137.64474487305;
+						["y"] = 4;
+						["z"] = -59.121238708496;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["id"] = 1011712;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = -43.261051177979;
+						["y"] = 30.000007629395;
+						["z"] = 9.0896987915039;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1011707;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001559;
+						[2] = 2001560;
+					};
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 43.136787414551;
+						["y"] = 34;
+						["z"] = 29.126956939697;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[502] = {
+			["level"] = 50;
+			["name"] = "Her Last Vow";
+			["prereq"] = {
+				["QuestCompleted(493)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["forcerender"] = true;
+					["id"] = 1011707;
+					["itemreward"] = false;
+					["mapid"] = 131;
+					["pos"] = {
+						["x"] = 43.311744689941;
+						["y"] = 34;
+						["z"] = 28.971855163574;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["forcerender"] = true;
+					["id"] = 1011714;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = -222.2643737793;
+						["y"] = -3.6709504127502;
+						["z"] = 51.577484130859;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["Distance3D(Player.pos.x,Player.pos.y,Player.pos.z,-314.059,-1.08068,44.0111) <= 3"] = true;
+					};
+					["index"] = 2;
+					["exactpos"] = true;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = -314.059;
+						["y"] = -1.08068;
+						["z"] = 44.0111;
+					};
+					["type"] = "nav";
+				};
+				[4] = {
+					["commandstring"] = {
+						["CN"] = "/say ??";
+						["D"] = "/say Ellie";
+						["E"] = "/say Ellie!";
+						["F"] = "/say Ellie";
+						["J"] = "/say ???";
+						["KR"] = "/say ??";
+					};
+					["complete"] = {
+						["step"] = 3;
+					};
+					["forcerender"] = true;
+					["id"] = 2005188;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 141;
+					["pos"] = {
+						["x"] = -314.059;
+						["y"] = -1.08068;
+						["z"] = 44.0111;
+					};
+					["type"] = "textcommand";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 4;
+					};
+					["forcerender"] = true;
+					["id"] = 1011722;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 153;
+					["pos"] = {
+						["x"] = 159.94410705566;
+						["y"] = 37.540073394775;
+						["z"] = 178.44383239746;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["breakparty"] = true;
+					["condition"] = {
+						["step"] = 4;
+					};
+					["index"] = 4;
+					["mapid"] = 153;
+					["notes"] = {
+						[1] = "-=-=-=-=-=-Next Steps-=-=-=-=-=-";
+						[2] = "  Complete the Battle in the Big    ";
+						[3] = "  Keep duty and press start after";
+					};
+					["pos"] = {
+						["x"] = 159.94410705566;
+						["y"] = 37.540073394775;
+						["z"] = 178.44383239746;
+					};
+					["type"] = "endprofile";
+				};
+				[7] = {
+					["condition"] = {
+						["QuestCompleted(1669)"] = false;
+					};
+					["id"] = 1011723;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 153;
+					["pos"] = {
+						["x"] = 142.37889099121;
+						["y"] = 30.188760757446;
+						["z"] = 173.41354370117;
+					};
+					["stopnotice"] = {
+						[1] = "-=-=-=-=-=-Next Steps-=-=-=-=-=-";
+						[2] = "  You MUST complete the quest   ";
+						[3] = "   HEAVENSWARD to unlock 3.x    ";
+						[4] = "     Hildibrand quests.         ";
+						[5] = "                                ";
+						[6] = "   Start this profile again     ";
+						[7] = "  after completing that quest.  ";
+					};
+					["type"] = "complete";
+				};
+				[8] = {
+					["condition"] = {
+						["QuestCompleted(1669)"] = true;
+					};
+					["id"] = 1011723;
+					["itemreward"] = false;
+					["itemrewardslot"] = 0;
+					["mapid"] = 153;
+					["pos"] = {
+						["x"] = 142.37889099121;
+						["y"] = 30.188760757446;
+						["z"] = 173.41354370117;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2226] = {
+			["level"] = 60;
+			["name"] = "A Gentleman Falls, Rather than Flies";
+			["prereq"] = {
+				["QuestCompleted(1669) and QuestCompleted(502)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016597;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -265.87417602539;
+						["y"] = -20.064430236816;
+						["z"] = -68.235702514648;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1011207;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -259.54718017578;
+						["y"] = -20.035011291504;
+						["z"] = -65.933029174805;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1011202;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -226.42254638672;
+						["y"] = -16.076320648193;
+						["z"] = -51.31526184082;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1011204;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -204.85522460938;
+						["y"] = -16.034917831421;
+						["z"] = -51.620079040527;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1012180;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -175.2410736084;
+						["y"] = -12.551191329956;
+						["z"] = -22.614356994629;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1015596;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 14.965005874634;
+						["y"] = 15.965049743652;
+						["z"] = -1.0382789373398;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 2006709;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 38.047981262207;
+						["y"] = 16.499309539795;
+						["z"] = -31.098031997681;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1011231;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 503.02465820313;
+						["y"] = 217.95149230957;
+						["z"] = 788.69567871094;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 2006753;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = -217.62812805176;
+						["y"] = 88.120513916016;
+						["z"] = -584.55609130859;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2227] = {
+			["level"] = 60;
+			["name"] = "Don't Call It a Comeback";
+			["prereq"] = {
+				["QuestCompleted(2226)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016604;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = -220.97132873535;
+						["y"] = 88.327537536621;
+						["z"] = -583.49554443359;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1016629;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 409.22695922852;
+						["y"] = 166.14814758301;
+						["z"] = -449.39498901367;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1016612;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 756.94976806641;
+						["y"] = 186.03283691406;
+						["z"] = -536.5830078125;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 2006763;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 788.75640869141;
+						["y"] = 186.033203125;
+						["z"] = -529.32696533203;
+					};
+					["type"] = "nav";
+				};
+				[5] = {
+					["id"] = 2006763;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 788.75640869141;
+						["y"] = 186.033203125;
+						["z"] = -529.32696533203;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1016617;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 789.66143798828;
+						["y"] = 186.03031921387;
+						["z"] = -526.92785644531;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.061187744141;
+						["y"] = 8.0591497421265;
+						["z"] = 10.81732749939;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2228] = {
+			["level"] = 60;
+			["name"] = "The Gigi Situation";
+			["prereq"] = {
+				["GameRegion() ~= 3"] = true;
+				["QuestCompleted(2227)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.125762939453;
+						["y"] = 8.0591497421265;
+						["z"] = 11.032880783081;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1016600;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 45.111560821533;
+						["y"] = 15.865067481995;
+						["z"] = -26.969554901123;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1017131;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 34.48323059082;
+						["y"] = 15.965061187744;
+						["z"] = -96.710372924805;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1017278;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -157.85487365723;
+						["y"] = 2.0333423614502;
+						["z"] = -9.836540222168;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1016607;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -259.63940429688;
+						["y"] = -20.03494644165;
+						["z"] = -67.183418273926;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1016608;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -260.91442871094;
+						["y"] = -20.034942626953;
+						["z"] = -66.952583312988;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2229] = {
+			["level"] = 60;
+			["name"] = "The Measure of a Mammet";
+			["prereq"] = {
+				["GameRegion() ~= 3"] = true;
+				["QuestCompleted(2228)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016608;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -260.91442871094;
+						["y"] = -20.034942626953;
+						["z"] = -66.952583312988;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1011225;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -169.35041809082;
+						["y"] = 16.979583740234;
+						["z"] = -36.728775024414;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1017133;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 408.71704101563;
+						["y"] = 195.82676696777;
+						["z"] = 586.46893310547;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 2007180;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 263.30010986328;
+						["y"] = 163.44242858887;
+						["z"] = 294.77890014648;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1017274;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 164.57402038574;
+						["y"] = 166.27409362793;
+						["z"] = 182.07965087891;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1017274;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 164.57402038574;
+						["y"] = 166.27409362793;
+						["z"] = 182.07965087891;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1017277;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 397;
+					["pos"] = {
+						["x"] = 163.63459777832;
+						["y"] = 166.27409362793;
+						["z"] = 180.41488647461;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.954727172852;
+						["y"] = 8.0591497421265;
+						["z"] = 10.540484428406;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2369] = {
+			["level"] = 60;
+			["name"] = "A Gazebo to Call Our Own";
+			["prereq"] = {
+				["GameRegion() == 1"] = true;
+				["QuestCompleted(2229)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.00422668457;
+						["y"] = 8.0591497421265;
+						["z"] = 9.9514436721802;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1017959;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 37.575031280518;
+						["y"] = 16.499309539795;
+						["z"] = -30.771636962891;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1017962;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 6.1156420707703;
+						["y"] = 11.964994430542;
+						["z"] = 30.757894515991;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1017963;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = 21.327342987061;
+						["y"] = 11.965156555176;
+						["z"] = 46.850704193115;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["step"] = 3;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1017964;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -40.02172088623;
+						["y"] = 11.964992523193;
+						["z"] = 32.697765350342;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1017968;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["pos"] = {
+						["x"] = -43.200927734375;
+						["y"] = 11.965106010437;
+						["z"] = 46.505424499512;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1017970;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 131.294921875;
+						["y"] = 206.15791320801;
+						["z"] = 81.713310241699;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1012099;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 49.513534545898;
+						["y"] = 206.02854919434;
+						["z"] = 56.113082885742;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1017977;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = -0.63747662305832;
+						["y"] = 206.49946594238;
+						["z"] = 21.203018188477;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["complete"] = {
+						["step"] = 255;
+					};
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1012299;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = -13.912841796875;
+						["y"] = 206.49942016602;
+						["z"] = 44.305641174316;
+					};
+					["type"] = "interact";
+				};
+				[11] = {
+					["id"] = 1017981;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 10.90043926239;
+						["y"] = 206.82502746582;
+						["z"] = 61.441837310791;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2370] = {
+			["level"] = 60;
+			["name"] = "Don't Trust Anyone over Sixty";
+			["prereq"] = {
+				["GameRegion() == 1"] = true;
+				["QuestCompleted(2369)"] = true;
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1017983;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 12.106435775757;
+						["y"] = 207.49996948242;
+						["z"] = 84.817237854004;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1017988;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -543.62683105469;
+						["y"] = 144.87652587891;
+						["z"] = -348.69927978516;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1017993;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -543.68292236328;
+						["y"] = 144.87300109863;
+						["z"] = -348.50677490234;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1017997;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -594.8369140625;
+						["y"] = 147.96011352539;
+						["z"] = -37.761581420898;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1018005;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -762.72607421875;
+						["y"] = 149.66612243652;
+						["z"] = 15.790105819702;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1018005;
+					["index"] = 5;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -762.24676513672;
+						["y"] = 149.57040405273;
+						["z"] = 15.197053909302;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1018122;
+					["index"] = 6;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -762.72607421875;
+						["y"] = 149.66612243652;
+						["z"] = 15.790105819702;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1018122;
+					["index"] = 7;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -762.2607421875;
+						["y"] = 149.66792297363;
+						["z"] = 15.981780052185;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1018122;
+					["index"] = 8;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -762.2607421875;
+						["y"] = 149.66792297363;
+						["z"] = 15.981780052185;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["id"] = 1018122;
+					["index"] = 9;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -761.06072998047;
+						["y"] = 149.49171447754;
+						["z"] = 15.010878562927;
+					};
+					["type"] = "interact";
+				};
+				[11] = {
+					["id"] = 1017997;
+					["index"] = 10;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2002011;
+						[2] = 2002013;
+					};
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -596.61248779297;
+						["y"] = 147.9600982666;
+						["z"] = -37.581741333008;
+					};
+					["type"] = "interact";
+				};
+				[12] = {
+					["id"] = 1018007;
+					["index"] = 11;
+					["itemreward"] = false;
+					["mapid"] = 399;
+					["pos"] = {
+						["x"] = -601.56060791016;
+						["y"] = 147.59962463379;
+						["z"] = -38.772109985352;
+					};
+					["type"] = "interact";
+				};
+				[13] = {
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.741157531738;
+						["y"] = 8.0591478347778;
+						["z"] = 11.387228965759;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2371] = {
+			["level"] = 60;
+			["name"] = "The Proud and the Pointy-eyed";
+			["prereq"] = {
+				[-1] = {
+					[1] = 2370;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1016619;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["pos"] = {
+						["x"] = -66.362953186035;
+						["y"] = 8.0591497421265;
+						["z"] = 10.493309020996;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1018448;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 12.014974594116;
+						["y"] = 206.59770202637;
+						["z"] = 75.275985717773;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1018451;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = 606.14105224609;
+						["y"] = -49.523262023926;
+						["z"] = 41.003967285156;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1011920;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = 519.93084716797;
+						["y"] = -51.040092468262;
+						["z"] = 87.361480712891;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1011919;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = 498.03866577148;
+						["y"] = -49.615531921387;
+						["z"] = 12.062104225159;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["complete"] = {
+						["step"] = 4;
+					};
+					
+					["id"] = 1011921;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = 453.64294433594;
+						["y"] = -51.141403198242;
+						["z"] = 58.130355834961;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["delay"] = 0;
+					["id"] = 1018454;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = 548.58978271484;
+						["y"] = -51.275718688965;
+						["z"] = 6.1910343170166;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["delay"] = 0;
+					["id"] = 1018460;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = -108.58479309082;
+						["y"] = -35.632278442383;
+						["z"] = -19.013723373413;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["delay"] = 0;
+					["id"] = 1018460;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = -108.58479309082;
+						["y"] = -35.632278442383;
+						["z"] = -19.013723373413;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[2372] = {
+			["level"] = 60;
+			["name"] = "If I Could Turn Back Time";
+			["prereq"] = {
+				[-1] = {
+					[1] = 2371;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1018463;
+					["itemreward"] = false;
+					["mapid"] = 398;
+					["pos"] = {
+						["x"] = -108.58479309082;
+						["y"] = -35.632278442383;
+						["z"] = -19.013723373413;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 2;
+					["itemid"] = 2002034;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "useitem";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 4;
+					["itemid"] = 2002047;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "useitem";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["delay"] = 0;
+					["id"] = 1018468;
+					["index"] = 7;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -560.412109375;
+						["y"] = 48;
+						["z"] = 304.6071472168;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["delay"] = 0;
+					["id"] = 1018459;
+					["index"] = 8;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["pos"] = {
+						["x"] = -674.05932617188;
+						["y"] = 73;
+						["z"] = 289.28662109375;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["delay"] = 0;
+					["id"] = 1018456;
+					["itemreward"] = false;
+					["mapid"] = 478;
+					["pos"] = {
+						["x"] = 13.847057342529;
+						["y"] = 206.59942626953;
+						["z"] = 76.587829589844;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3008] = {
+			["level"] = 70;
+			["name"] = "A Hingan Tale: Nashu Goes East";
+			["prereq"] = {
+				[-1] = {
+					[1] = 2372;
+					[2] = 2553;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1024349;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -27.05;
+						["y"] = -0.00;
+						["z"] = -69.60;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1024350;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -36.03;
+						["y"] = 14.00;
+						["z"] = -45.40;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["conversationindex"] = 1;
+					["id"] = 1024350;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -36.03;
+						["y"] = 14.00;
+						["z"] = -45.40;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1019000;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 39.41;
+						["y"] = 4.50;
+						["z"] = -43.47;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1024409;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -20.92;
+						["y"] = 6.02;
+						["z"] = -133.32;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1019034;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -95.84;
+						["y"] = 11.80;
+						["z"] = -147.30;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["conversationindex"] = 1;
+					["id"] = 1024351;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -36.27;
+						["y"] = 5.98;
+						["z"] = -152.36;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1024352;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 24.09;
+						["y"] = 6.03;
+						["z"] = -134.02;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["delay"] = 0;
+					["id"] = 1024355;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 25.38;
+						["y"] = 6.03;
+						["z"] = -119.43;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3020] = {
+			["level"] = 70;
+			["name"] = "Life Imitates Art Imitates Life";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3008;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["conversationindex"] = 3;
+					["id"] = 1024355;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 25.38;
+						["y"] = 6.03;
+						["z"] = -119.43;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1019063;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 3.34;
+						["y"] = 0.00;
+						["z"] = -67.73;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AL"] = 2;
+					};
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1019039;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -35.11;
+						["y"] = 14.00;
+						["z"] = -64.04;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["condition"] = {
+						["I8AL"] = 2;
+					};
+					["id"] = 1024711;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 136.22;
+						["y"] = 12.00;
+						["z"] = -69.87;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1024705;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 8.59;
+						["y"] = 4.00;
+						["z"] = 35.17;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1024708;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 98.83;
+						["y"] = 4.00;
+						["z"] = 103.47;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1024709;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -108.02;
+						["y"] = -6.00;
+						["z"] = 70.24;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1024710;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 835.54;
+						["y"] = 5.92;
+						["z"] = 834.68;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3021] = {
+			["level"] = 70;
+			["name"] = "Of Wolves and Gentlemen";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3020;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1024710;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 835.54;
+						["y"] = 5.92;
+						["z"] = 834.68;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1019166;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 495.66;
+						["y"] = 29.39;
+						["z"] = 722.01;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1024717;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 503.44;
+						["y"] = 28.74;
+						["z"] = 737.42;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 2008628;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 633.81;
+						["y"] = 1.48;
+						["z"] = 216.27;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1024722;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 615.41;
+						["y"] = 69.10;
+						["z"] = -79.88;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1024723;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 534.20;
+						["y"] = 0.00;
+						["z"] = -252.58;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1024725;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 100.02;
+						["y"] = 4.00;
+						["z"] = 99.26;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["id"] = 1024708;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 98.83;
+						["y"] = 4.00;
+						["z"] = 103.47;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3094] = {
+			["level"] = 70;
+			["name"] = "In the Eye of Hingan";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3021;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1024708;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 98.83;
+						["y"] = 4.00;
+						["z"] = 103.47;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1025885;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 26.44;
+						["y"] = 6.02;
+						["z"] = -118.58;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1025887;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -62.79;
+						["y"] = 6.03;
+						["z"] = -171.19;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1025891;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -45.06;
+						["y"] = 10.50;
+						["z"] = -191.79;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1025887;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -62.79;
+						["y"] = 6.03;
+						["z"] = -171.19;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1025893;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -60.41;
+						["y"] = 6.01;
+						["z"] = -168.41;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3095] = {
+			["level"] = 70;
+			["name"] = "The Blade Mislaid";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3094;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1025893;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -60.41;
+						["y"] = 6.01;
+						["z"] = -168.41;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1025896;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = 248.10;
+						["y"] = 17.47;
+						["z"] = -664.97;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1025901;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = -93.71;
+						["y"] = 53.14;
+						["z"] = -530.27;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1025906;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = -208.88;
+						["y"] = 53.22;
+						["z"] = -581.35;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 2009533;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = -220.11;
+						["y"] = 53.21;
+						["z"] = -597.80;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1025910;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = -125.41;
+						["y"] = 53.22;
+						["z"] = -648.43;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1025911;
+					["index"] = 6;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2002169;
+					};
+					["mapid"] = 614;
+					["pos"] = {
+						["x"] = -126.24;
+						["y"] = 53.22;
+						["z"] = -650.69;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1019030;
+					["index"] = 7;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 65.72;
+						["y"] = 10.50;
+						["z"] = -167.16;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1025912;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 66.58;
+						["y"] = 10.50;
+						["z"] = -155.60;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3150] = {
+			["level"] = 70;
+			["name"] = "The Black Heart Beneath";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3095;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1025912;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 66.58;
+						["y"] = 10.50;
+						["z"] = -155.60;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8AH"] = 1;
+					};
+					["condition"] = {
+						["I8AH"] = 0;
+					};
+					["id"] = 1022620;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -4.75;
+						["y"] = 0.02;
+						["z"] = -113.97;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8AH"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 1;
+					};
+					["id"] = 1019063;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 3.34;
+						["y"] = 0.00;
+						["z"] = -67.73;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["complete"] = {
+						["step"] = 2;
+					};
+					["condition"] = {
+						["I8AH"] = 2;
+					};
+					["id"] = 1022628;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 38.65;
+						["y"] = 3.00;
+						["z"] = -66.76;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1025912;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 66.58;
+						["y"] = 10.50;
+						["z"] = -155.60;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1026349;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 62.18;
+						["y"] = 5.99;
+						["z"] = -106.13;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1026457;
+					["index"] = 4;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 62.27;
+						["y"] = -8.10;
+						["z"] = -225.30;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["id"] = 1026353;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 45.46;
+						["y"] = -7.47;
+						["z"] = -261.34;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3151] = {
+			["level"] = 70;
+			["name"] = "Good Swords, Good Dogs";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3150;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1026351;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 45.09;
+						["y"] = -7.47;
+						["z"] = -262.71;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1026355;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 841.28;
+						["y"] = 1.18;
+						["z"] = 861.91;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1019166;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 493.22;
+						["y"] = 28.01;
+						["z"] = 721.23;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1026366;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 433.74;
+						["y"] = 30.29;
+						["z"] = 780.70;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1026367;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 297.32;
+						["y"] = 0.35;
+						["z"] = 470.51;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1026369;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -35.08;
+						["y"] = 5.98;
+						["z"] = -152.24;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3167] = {
+			["level"] = 70;
+			["name"] = "The Past is Never Past";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3151;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1024351;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = -36.27;
+						["y"] = 5.98;
+						["z"] = -152.36;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["id"] = 1026363;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 54.61;
+						["y"] = 8.00;
+						["z"] = 192.40;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["notes"] = {
+						[1] = "Complete Kugane Ohashi trial";
+					};
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 54.61;
+						["y"] = 8.00;
+						["z"] = 192.40;
+					};
+					["type"] = "endprofile";
+				};
+				[4] = {
+					["id"] = 1026364;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 52.54;
+						["y"] = 8.02;
+						["z"] = 192.49;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1024351;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["index"] = 4;
+					["pos"] = {
+						["x"] = -36.27;
+						["y"] = 5.98;
+						["z"] = -152.36;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["complete"] = {
+						["I8AL"] = 1;
+					};
+					["condition"] = {
+						["I8AL"] = 0;
+					};
+					["id"] = 1019063;
+					["itemreward"] = false;
+					["index"] = 5;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 3.34;
+						["y"] = 0;
+						["z"] = -67.73;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["condition"] = {
+						["I8AL"] = 1;
+					};
+					["id"] = 1018994;
+					["itemreward"] = false;
+					["index"] = 5;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 49.24;
+						["y"] = 4.00;
+						["z"] = 55.77;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["conversationindex"] = 2;
+					["id"] = 1026369;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["index"] = 6;
+					["pos"] = {
+						["x"] = -35.08;
+						["y"] = 5.98;
+						["z"] = -152.24;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["id"] = 1025885;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 26.44;
+						["y"] = 6.02;
+						["z"] = -118.58;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[3168] = {
+			["level"] = 70;
+			["name"] = "Don't do the dewprism";
+			["prereq"] = {
+				[-1] = {
+					[1] = 3167;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["id"] = 1025885;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 26.44;
+						["y"] = 6.02;
+						["z"] = -118.58;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["conversationindex"] = 1;
+					["id"] = 1019068;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 42.19;
+						["y"] = -7.46;
+						["z"] = -264.76;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["id"] = 1019033;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 52.05;
+						["y"] = 8.02;
+						["z"] = 140.55;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["id"] = 1026764;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 24.92;
+						["y"] = 6.01;
+						["z"] = -123.98;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["id"] = 1026350;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 512.90;
+						["y"] = 0.85;
+						["z"] = 148.91;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1026765;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 613;
+					["pos"] = {
+						["x"] = 495.11;
+						["y"] = 1.61;
+						["z"] = 149.49;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["id"] = 1026766;
+					["itemreward"] = false;
+					["mapid"] = 628;
+					["pos"] = {
+						["x"] = 52.38;
+						["y"] = 10.50;
+						["z"] = -154.04;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+	};
+}
+return obj1

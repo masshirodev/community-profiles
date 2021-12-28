@@ -1,0 +1,1781 @@
+-- Persistent Data
+local multiRefObjects = {
+
+} -- multiRefObjects
+local obj1 = {
+	["names"] = {
+	};
+	["quests"] = {
+		[1821] = {
+			["level"] = 54;
+			["name"] = "A Pebble for Your Thoughts";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1623;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014424;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 356.01593017578;
+						["y"] = 2.8103382587433;
+						["z"] = 637.32971191406;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014425;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 472.52563476563;
+						["y"] = -3.8811616897583;
+						["z"] = 723.11773681641;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014427;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 472.52563476563;
+						["y"] = -3.8811616897583;
+						["z"] = 723.11773681641;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 4277;
+					["index"] = 3;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 770.47930908203;
+						["y"] = -9.4912939071655;
+						["z"] = 286.20230102539;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014426;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 772.14764404297;
+						["y"] = -9.4913015365601;
+						["z"] = 285.19357299805;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["id"] = 1014427;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 472.2321472168;
+						["y"] = -3.7778120040894;
+						["z"] = 723.68359375;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1824] = {
+			["level"] = 54;
+			["name"] = "Spineless Wadjets";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1821;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014429;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -75.501762390137;
+						["y"] = -8.6555604934692;
+						["z"] = 165.50177001953;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014431;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -75.350074768066;
+						["y"] = -8.8444738388062;
+						["z"] = 166.15667724609;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014430;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 358.29876708984;
+						["y"] = -30.060752868652;
+						["z"] = -103.15506744385;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 3616;
+					["index"] = 3;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 301.98840332031;
+						["y"] = -34.183994293213;
+						["z"] = -142.56242370605;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014430;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 357.16674804688;
+						["y"] = -29.809064865112;
+						["z"] = -106.94540405273;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 3616;
+					["index"] = 5;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 288.04708862305;
+						["y"] = -30.708511352539;
+						["z"] = -169.1983795166;
+					};
+					["type"] = "kill";
+				};
+				[7] = {
+					["delay"] = 0;
+					["id"] = 1014430;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 356.00015258789;
+						["y"] = -29.853908538818;
+						["z"] = -107.06927490234;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["delay"] = 0;
+					["id"] = 3616;
+					["index"] = 7;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 230.07054138184;
+						["y"] = -38.409687042236;
+						["z"] = -120.72193908691;
+					};
+					["type"] = "kill";
+				};
+				[9] = {
+					["delay"] = 0;
+					["id"] = 1014430;
+					["index"] = 8;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 354.78646850586;
+						["y"] = -29.809797286987;
+						["z"] = -107.28136444092;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["delay"] = 0;
+					["id"] = 1014431;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -74.598846435547;
+						["y"] = -8.8444738388062;
+						["z"] = 165.7075958252;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1831] = {
+			["level"] = 54;
+			["name"] = "Far from Home";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1824;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014432;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -624.52398681641;
+						["y"] = 50;
+						["z"] = 332.78286743164;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014436;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -624.52398681641;
+						["y"] = 50;
+						["z"] = 332.78286743164;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014432;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -624.52398681641;
+						["y"] = 50;
+						["z"] = 332.78286743164;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 4278;
+					["index"] = 3;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -475.01937866211;
+						["y"] = 42.673194885254;
+						["z"] = 361.08612060547;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014433;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -475.01937866211;
+						["y"] = 42.673194885254;
+						["z"] = 361.08612060547;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 4278;
+					["index"] = 5;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -177.69853210449;
+						["y"] = -21.01162147522;
+						["z"] = 267.79809570313;
+					};
+					["type"] = "kill";
+				};
+				[7] = {
+					["delay"] = 0;
+					["id"] = 1014434;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -177.23066711426;
+						["y"] = -21.104846954346;
+						["z"] = 268.42788696289;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["delay"] = 0;
+					["id"] = 1014435;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -108.40924835205;
+						["y"] = -8.8459739685059;
+						["z"] = 212.41500854492;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1832] = {
+			["level"] = 54;
+			["name"] = "A Nutty Initiation";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1831;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014442;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 452.70666503906;
+						["y"] = -24.965476989746;
+						["z"] = 111.46044921875;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014445;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 452.70666503906;
+						["y"] = -24.965476989746;
+						["z"] = 111.46044921875;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014442;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 452.70666503906;
+						["y"] = -24.965476989746;
+						["z"] = 111.46044921875;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1012084;
+					["index"] = 3;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 225.9691619873;
+						["y"] = 7.0396785736084;
+						["z"] = 707.82745361328;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014446;
+					["index"] = 4;
+					["itemreward"] = false;
+					["itemturnin"] = true;
+					["itemturninid"] = {
+						[1] = 2001780;
+					};
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 392.26214599609;
+						["y"] = -27.638244628906;
+						["z"] = 113.80461120605;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 1012082;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 379.98590087891;
+						["y"] = -69.429885864258;
+						["z"] = 689.92572021484;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1863] = {
+			["level"] = 55;
+			["name"] = "Protecting the Pom";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1832;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1012082;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 380.68103027344;
+						["y"] = -69.430015563965;
+						["z"] = 689.60736083984;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 4289;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -6.2966685295105;
+						["y"] = -20.667274475098;
+						["z"] = 182.01802062988;
+					};
+					["type"] = "kill";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014290;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -6.0780777931213;
+						["y"] = -20.576232910156;
+						["z"] = 180.02589416504;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1014293;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -105.93508148193;
+						["y"] = 36.394443511963;
+						["z"] = 187.53605651855;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1864] = {
+			["level"] = 55;
+			["name"] = "Save the Pomguard";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1863;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014293;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -105.57824707031;
+						["y"] = 36.394443511963;
+						["z"] = 187.80569458008;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014294;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -368.09024047852;
+						["y"] = 30.318069458008;
+						["z"] = 421.76153564453;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 4290;
+					["index"] = 2;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -272.15505981445;
+						["y"] = 41.099044799805;
+						["z"] = 243.52499389648;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1014297;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -272.26629638672;
+						["y"] = 41.099044799805;
+						["z"] = 242.93910217285;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014294;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -368.5334777832;
+						["y"] = 30.477714538574;
+						["z"] = 420.45541381836;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 1014300;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -694.11657714844;
+						["y"] = 79;
+						["z"] = 269.79318237305;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1865] = {
+			["level"] = 55;
+			["name"] = "An Urgent Message";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1864;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014300;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -694.83874511719;
+						["y"] = 79;
+						["z"] = 269.83853149414;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014303;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -811.37640380859;
+						["y"] = 83.951049804688;
+						["z"] = 221.69920349121;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1014304;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -473.27365112305;
+						["y"] = 39.896320343018;
+						["z"] = 156.34585571289;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1866] = {
+			["level"] = 55;
+			["name"] = "An Uneasy Feeling";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1865;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014307;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -662.54174804688;
+						["y"] = 73;
+						["z"] = 172.25564575195;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8A"] = 17;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -626.79162597656;
+						["y"] = 81;
+						["z"] = 100.85009765625;
+					};
+					["type"] = "kill";
+				};
+				[3] = {
+					["complete"] = {
+						["I8A"] = 33;
+					};
+					["condition"] = {
+						["I8A"] = 17;
+					};
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -578.24865722656;
+						["y"] = 80.999984741211;
+						["z"] = 102.04845428467;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -607.17437744141;
+						["y"] = 81.915832519531;
+						["z"] = 142.2586517334;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014307;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -662.41235351563;
+						["y"] = 73;
+						["z"] = 171.94650268555;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1867] = {
+			["level"] = 55;
+			["name"] = "A Moogle's Intuition";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1865;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014308;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -745.59478759766;
+						["y"] = 73;
+						["z"] = 316.41146850586;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8A"] = 16;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -722.99829101563;
+						["y"] = 80.999877929688;
+						["z"] = 377.84393310547;
+					};
+					["type"] = "kill";
+				};
+				[3] = {
+					["complete"] = {
+						["I8A"] = 33;
+					};
+					["condition"] = {
+						["I8A"] = 16;
+					};
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -719.48760986328;
+						["y"] = 80.999984741211;
+						["z"] = 427.38299560547;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 4291;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -767.84881591797;
+						["y"] = 80.999969482422;
+						["z"] = 402.60647583008;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1014308;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -746.19207763672;
+						["y"] = 73;
+						["z"] = 317.27633666992;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1868] = {
+			["level"] = 55;
+			["name"] = "Trouble at Zenith";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1867;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1014300;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -693.38519287109;
+						["y"] = 79;
+						["z"] = 269.20565795898;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1014310;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -711.51501464844;
+						["y"] = 343;
+						["z"] = 240.40884399414;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 4292;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -711.51501464844;
+						["y"] = 343;
+						["z"] = 240.40884399414;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1014311;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -711.41949462891;
+						["y"] = 343;
+						["z"] = 237.95288085938;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1012082;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 380.06088256836;
+						["y"] = -69.430015563965;
+						["z"] = 689.07482910156;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1872] = {
+			["level"] = 56;
+			["name"] = "Into the Mists";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1868;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013557;
+					["itemreward"] = false;
+					["mapid"] = 419;
+					["meshname"] = "Ishgard - The Pillars";
+					["pos"] = {
+						["x"] = 8.5206394195557;
+						["y"] = 16.015048980713;
+						["z"] = -8.2237739562988;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1012163;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["meshname"] = "Ishgard - Foundation";
+					["pos"] = {
+						["x"] = 128.35302734375;
+						["y"] = 24.458835601807;
+						["z"] = -2.0431108474731;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1013559;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["meshname"] = "Ishgard - Foundation";
+					["pos"] = {
+						["x"] = 128.35302734375;
+						["y"] = 24.458835601807;
+						["z"] = -2.0431108474731;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.785375595093;
+						["y"] = 81.840599060059;
+						["z"] = -316.52786254883;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1878] = {
+			["level"] = 56;
+			["name"] = "A Warm Welcome";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1872;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 12.339383125305;
+						["y"] = 81.840599060059;
+						["z"] = -316.48495483398;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8A"] = 16;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 4294;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -46.356163024902;
+						["y"] = 76.756149291992;
+						["z"] = -353.63043212891;
+					};
+					["type"] = "kill";
+				};
+				[3] = {
+					["complete"] = {
+						["I8A"] = 32;
+					};
+					["condition"] = {
+						["I8A"] = 16;
+					};
+					["delay"] = 0;
+					["id"] = 4294;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -40.965229034424;
+						["y"] = 62.879955291748;
+						["z"] = -293.43118286133;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 4294;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -11.436552047729;
+						["y"] = 76.756149291992;
+						["z"] = -249.49896240234;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.01845741272;
+						["y"] = 81.840599060059;
+						["z"] = -316.58535766602;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1881] = {
+			["level"] = 56;
+			["name"] = "Cleaning House";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1878;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 14.291984558105;
+						["y"] = 81.840599060059;
+						["z"] = -316.86682128906;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1013569;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 331.51916503906;
+						["y"] = 223.0153503418;
+						["z"] = -482.07376098633;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 3630;
+					["index"] = 2;
+					["itemreward"] = false;
+					["killcount"] = 3;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 298.52081298828;
+						["y"] = 223.18371582031;
+						["z"] = -576.85467529297;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1013569;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 331.44610595703;
+						["y"] = 223.0153503418;
+						["z"] = -482.55587768555;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1882] = {
+			["level"] = 56;
+			["name"] = "Finders Keepers";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1881;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013569;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 331.89916992188;
+						["y"] = 223.0153503418;
+						["z"] = -482.06671142578;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8A"] = 16;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 2005805;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 160.34805297852;
+						["y"] = 212.64736938477;
+						["z"] = -734.70373535156;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 2005806;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 109.08704376221;
+						["y"] = 212.79664611816;
+						["z"] = -786.96270751953;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1013569;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 331.41159057617;
+						["y"] = 223.0153503418;
+						["z"] = -483.15383911133;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 12.872718811035;
+						["y"] = 81.840599060059;
+						["z"] = -316.94680786133;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1879] = {
+			["level"] = 56;
+			["name"] = "These Things Take Time";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1882;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 14.296973228455;
+						["y"] = 81.840599060059;
+						["z"] = -316.88586425781;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1013566;
+					["index"] = 1;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -752.88159179688;
+						["y"] = 285.65658569336;
+						["z"] = -167.94091796875;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 3629;
+					["index"] = 2;
+					["itemreward"] = false;
+					["itemturnin"] = false;
+					["killcount"] = 3;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -733.69421386719;
+						["y"] = 258.66253662109;
+						["z"] = -176.69654846191;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1013566;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -753.64215087891;
+						["y"] = 285.65655517578;
+						["z"] = -167.13496398926;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1883] = {
+			["level"] = 56;
+			["name"] = "An Unwelcome Surprise";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1879;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013566;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -752.25982666016;
+						["y"] = 285.38726806641;
+						["z"] = -167.82232666016;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 1013570;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -554.970703125;
+						["y"] = 266.02313232422;
+						["z"] = -674.05621337891;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 3629;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -743.31414794922;
+						["y"] = 258.79541015625;
+						["z"] = -202.951171875;
+					};
+					["type"] = "kill";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 3629;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -743.31414794922;
+						["y"] = 258.79541015625;
+						["z"] = -202.951171875;
+					};
+					["type"] = "kill";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1013570;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -554.33361816406;
+						["y"] = 266.02850341797;
+						["z"] = -673.8515625;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1884] = {
+			["level"] = 56;
+			["name"] = "A Meter Too Far";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1883;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013570;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -554.20733642578;
+						["y"] = 266.02682495117;
+						["z"] = -673.55816650391;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["complete"] = {
+						["I8A"] = 16;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 2005813;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -787.71069335938;
+						["y"] = 257.70166015625;
+						["z"] = -642.50646972656;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["complete"] = {
+						["I8A"] = 32;
+					};
+					["condition"] = {
+						["I8A"] = 16;
+					};
+					["delay"] = 0;
+					["id"] = 2005811;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -816.89855957031;
+						["y"] = 258.10317993164;
+						["z"] = -674.94781494141;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 2005812;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -759.12353515625;
+						["y"] = 257.51983642578;
+						["z"] = -704.16998291016;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1013570;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -554.95538330078;
+						["y"] = 266.01959228516;
+						["z"] = -673.71392822266;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 1013566;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -752.11352539063;
+						["y"] = 285.23645019531;
+						["z"] = -167.71170043945;
+					};
+					["type"] = "interact";
+				};
+				[7] = {
+					["complete"] = {
+						["I8A"] = 16;
+					};
+					["condition"] = {
+						["I8A"] = 0;
+					};
+					["delay"] = 0;
+					["id"] = 2005814;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -756.06195068359;
+						["y"] = 259.60391235352;
+						["z"] = -205.21664428711;
+					};
+					["type"] = "interact";
+				};
+				[8] = {
+					["complete"] = {
+						["I8A"] = 32;
+					};
+					["condition"] = {
+						["I8A"] = 16;
+					};
+					["delay"] = 0;
+					["id"] = 2005816;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -700.14398193359;
+						["y"] = 258.26229858398;
+						["z"] = -221.40254211426;
+					};
+					["type"] = "interact";
+				};
+				[9] = {
+					["delay"] = 0;
+					["id"] = 2005815;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -702.23950195313;
+						["y"] = 258.56573486328;
+						["z"] = -167.19486999512;
+					};
+					["type"] = "interact";
+				};
+				[10] = {
+					["delay"] = 0;
+					["id"] = 1013566;
+					["index"] = 5;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -751.93054199219;
+						["y"] = 285.03982543945;
+						["z"] = -167.45289611816;
+					};
+					["type"] = "interact";
+				};
+				[11] = {
+					["delay"] = 0;
+					["id"] = 1013567;
+					["index"] = 6;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.331288337708;
+						["y"] = 81.840599060059;
+						["z"] = -317.09536743164;
+					};
+					["type"] = "interact";
+				};
+				[12] = {
+					["delay"] = 0;
+					["id"] = 2005817;
+					["index"] = 7;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 15.768068313599;
+						["y"] = 81.840560913086;
+						["z"] = -321.28128051758;
+					};
+					["type"] = "interact";
+				};
+				[13] = {
+					["delay"] = 0;
+					["id"] = 1013567;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.52299785614;
+						["y"] = 81.840599060059;
+						["z"] = -316.76013183594;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1880] = {
+			["level"] = 56;
+			["name"] = "Thar Be Dragons";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1884;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013567;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.491400718689;
+						["y"] = 81.840599060059;
+						["z"] = -316.96380615234;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 4295;
+					["index"] = 1;
+					["itemreward"] = false;
+					["killcount"] = 1;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = -129.81376647949;
+						["y"] = -64.877723693848;
+						["z"] = -317.6076965332;
+					};
+					["type"] = "kill";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.490784645081;
+						["y"] = 81.840599060059;
+						["z"] = -317.06948852539;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+		[1871] = {
+			["level"] = 56;
+			["name"] = "Laying the First Brick";
+			["prereq"] = {
+				[-1] = {
+					[1] = 1880;
+				};
+			};
+			["steps"] = {
+				[1] = {
+					["delay"] = 0;
+					["id"] = 1013560;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 13.222852706909;
+						["y"] = 81.840599060059;
+						["z"] = -317.19546508789;
+					};
+					["type"] = "start";
+				};
+				[2] = {
+					["delay"] = 0;
+					["id"] = 2005821;
+					["index"] = 1;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 14.600628852844;
+						["y"] = 81.840591430664;
+						["z"] = -319.89819335938;
+					};
+					["type"] = "interact";
+				};
+				[3] = {
+					["delay"] = 0;
+					["id"] = 1013569;
+					["index"] = 2;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 331.30499267578;
+						["y"] = 223.0153503418;
+						["z"] = -482.15582275391;
+					};
+					["type"] = "interact";
+				};
+				[4] = {
+					["delay"] = 0;
+					["id"] = 1012163;
+					["index"] = 3;
+					["itemreward"] = false;
+					["mapid"] = 418;
+					["meshname"] = "Ishgard - Foundation";
+					["pos"] = {
+						["x"] = 127.67279052734;
+						["y"] = 24.458835601807;
+						["z"] = -2.3720717430115;
+					};
+					["type"] = "interact";
+				};
+				[5] = {
+					["delay"] = 0;
+					["id"] = 1012077;
+					["index"] = 4;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 379.92266845703;
+						["y"] = -69.429412841797;
+						["z"] = 695.20184326172;
+					};
+					["type"] = "interact";
+				};
+				[6] = {
+					["delay"] = 0;
+					["id"] = 1014314;
+					["itemreward"] = false;
+					["mapid"] = 400;
+					["meshname"] = "The Churning Mists";
+					["pos"] = {
+						["x"] = 11.138777732849;
+						["y"] = 81.840599060059;
+						["z"] = -317.9880065918;
+					};
+					["type"] = "complete";
+				};
+			};
+		};
+	};
+	["vars"] = {
+	};
+}
+return obj1
